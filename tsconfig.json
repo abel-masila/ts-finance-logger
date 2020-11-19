@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "target": "ES6",
-    "outFile": "sandbox.js"
-  }
+    "target": "ES2017",
+    "declaration": true,
+    "outDir": "lib"
+  },
+  "includes": ["src"]
 }

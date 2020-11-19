@@ -1,0 +1,11 @@
+{
+  "name": "ts-102",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:abel-masila/ts-finance-logger.git",
+  "author": "Abel Masila <abelmasila@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
+}
