@@ -6,6 +6,7 @@
   "author": "Abel Masila <abelmasila@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc -w"
   }
 }
