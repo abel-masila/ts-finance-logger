@@ -1,6 +1,9 @@
-const inputs = document.querySelectorAll("input");
-inputs.forEach(function (input) {
-  console.log(input);
-});
-console.log("Abel");
-console.log(inputs);
+let age: number = 30;
+
+const circ = (diameter: number) => {
+  return diameter * Math.PI;
+};
+
+console.log(circ(40));
+
+let arr = ["name", "age"];
