@@ -1,3 +1,14 @@
+import Invoice from "./classes/Invoice.js";
+
+const inv1 = new Invoice("Andela", "Web work", 300);
+const inv2 = new Invoice("Mookh", "Web work too", 500);
+
+let invoices: Invoice[] = [];
+invoices.push(inv1);
+invoices.push(inv2);
+
+console.log(invoices);
+
 const form = document.querySelector(".new-item-form") as HTMLFormElement;
 
 //inputs
