@@ -4,7 +4,7 @@ const form = document.querySelector(".new-item-form") as HTMLFormElement;
 const type = document.querySelector("#type") as HTMLSelectElement;
 const tofrom = document.querySelector("#tofrom") as HTMLInputElement;
 const details = document.querySelector("#details") as HTMLInputElement;
-const amount = document.querySelector("#amount") as HTMLButtonElement;
+const amount = document.querySelector("#amount") as HTMLInputElement;
 
 form.addEventListener("submit", (e: Event) => {
   e.preventDefault();
@@ -12,6 +12,6 @@ form.addEventListener("submit", (e: Event) => {
     type: type.value,
     toFrom: tofrom.value,
     details: details.value,
-    amount: amount.value,
+    amount: amount.valueAsNumber,
   });
 });
